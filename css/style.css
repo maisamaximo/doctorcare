@@ -201,6 +201,10 @@ body.menu-expanded .menu_img {
 }
 
 /*========== HEADER ==========*/
+section#home {
+  padding-bottom: 0;
+}
+
 #home {
   padding-top: calc(4.1rem + var(--nav-height));
 }
@@ -607,10 +611,6 @@ footer .social-links {
   }
 
   /*=== HOME =================================*/
-  section#home {
-    padding-bottom: 0;
-  }
-
   #home::before {
     height: calc(96% - var(--nav-height));
   }
