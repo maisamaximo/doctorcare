@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <title>DoctorCare</title>
+  </head>
+  <body onscroll="onScroll()" class="">
+    <!-- /*========== NAVIGATION ==========*/  -->
+    <nav id="navigation" class="">
+      <div class="wrapper">
+        <a class="menu_img" onclick="closeMenu()" href="#home"
+          ><img src="./assets/logo.svg" alt="Logo da empresa doctorcare" />
+        </a>
+
+        <div class="menu">
+          <ul>
+            <div class="menu-links">
+              <li><a onclick="closeMenu()" href="#home">Início</a></li>
+              <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+              <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+            </div>
+          </ul>
+
+          <a class="btn-secondary btn" href="#contact" onclick="closeMenu()"
+            >Agende sua consulta</a
+          >
+          <ul class="social-links">
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/icons/facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/icons/instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/icons/youtube.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          aria-label="abrir menu"
+          aria-expanded="false"
+          class="open-menu"
+          onclick="openMenu()"
+        >
+          <img class="menu_img" src="./assets/icons/menu.svg" alt="" />
+        </button>
+        <button
+          aria-label="fechar menu"
+          aria-expanded="true"
+          class="close-menu"
+          onclick="closeMenu()"
+        >
+          <img src="./assets/icons/Close.svg" alt="" />
+        </button>
+      </div>
+    </nav>
+    <!-- /*========== HEADER ==========*/  -->
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
+            <h1>Assistência médica simplificada para todos</h1>
+          </header>
+
+          <div class="content">
+            <p>
+              Os médicos da DoctorCare vão além dos sintomas para tratar a causa
+              raiz de sua doença e proporcionar uma cura a longo prazo.
+            </p>
+
+            <a
+              class="btn-primary btn"
+              href="https://wa.me/351914146000"
+              target="_blankeu "
+            >
+              <img src="./assets/icons/whatsapp.svg" alt="" />
+              Agende sua consulta
+            </a>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img
+            id="header-img"
+            src="./assets/woman.png"
+            alt="Mulher negra vestindo moletom verde e sorrindo"
+          />
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h3>+3.500</h3>
+            <p>Pacientes atendidos</p>
+          </div>
+          <div class="stat">
+            <h3>+15</h3>
+            <p>Especialistas disponíveis</p>
+          </div>
+          <div class="stat">
+            <h3>+10</h3>
+            <p>Anos no mercado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /*========== SERVICES ==========*/  -->
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h4 class="section-title">Serviços</h4>
+          <h2 class="section-subtitle">
+            Como podemos ajudá-lo a se sentir melhor?
+          </h2>
+        </header>
+
+        <div class="content">
+          <div class="cards">
+            <div class="card">
+              <img src="./assets/icons/check.svg" alt="" />
+              <h3 class="card-title">Problemas digestivos</h3>
+              <p class="card-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+            <div class="card">
+              <img src="./assets/icons/check.svg" alt="" />
+              <h3 class="card-title">Saúde Hormonal</h3>
+              <p class="card-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+            <div class="card">
+              <img src="./assets/icons/check.svg" alt="" />
+              <h3 class="card-title">Bem-estar mental</h3>
+              <p class="card-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+            <div class="card">
+              <img src="./assets/icons/check.svg" alt="" />
+              <h3 class="card-title">Cuidados Pediátricos</h3>
+              <p class="card-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+            <div class="card">
+              <img src="./assets/icons/check.svg" alt="" />
+              <h3 class="card-title">Autoimune e Inflamação</h3>
+              <p class="card-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+            <div class="card">
+              <img src="./assets/icons/check.svg" alt="" />
+              <h3 class="card-title">Saúde do Coração</h3>
+              <p class="card-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /*========== ABOUT ==========*/  -->
+    <section id="about">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4 class="section-title">SOBRE NÓS</h4>
+            <h2 class="section-subtitle">
+              Entenda quem somos e por que existimos
+            </h2>
+          </header>
+          <div class="content">
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim. Amet minim mollit
+              non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim. Amet minim mollit non deserunt
+              ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+              duis enim. Amet minim mollit non deserunt ullamco est sit aliqua
+              dolor do amet sint. Velit officia consequat duis enim. Amet minim
+              mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img src="./assets/doctor.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- /*========== CONTACT ==========*/  -->
+    <section id="contact">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h2 class="section-subtitle">Entre em contato com a gente!</h2>
+          </header>
+          <div class="content">
+            <ul>
+              <li>
+                <img src="./assets/icons/map-pin.svg" alt="" />
+                R. Amauri Souza, 346
+              </li>
+              <li>
+                <img src="./assets/icons/mail.svg" alt="" />
+                contato@doctorcare.com
+              </li>
+            </ul>
+
+            <a
+              class="btn-primary btn"
+              href="https://wa.me/351914146000"
+              target="_blankeu "
+            >
+              <img src="./assets/icons/whatsapp.svg" alt="" />
+              Agende sua consulta
+            </a>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img src="./assets/man.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- /*========== FOOTER ==========*/  -->
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <a class="menu_img" onclick="closeMenu()" href="#home"
+            ><img src="./assets/logo.svg" alt="Logo da empresa doctorcare" />
+          </a>
+          <p>©2021 DoctorCare.<br />Todos os direitos reservados.</p>
+        </div>
+
+        <div class="col-b">
+          <ul class="social-links">
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/icons/facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/icons/instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/icons/youtube.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- /*========== ARROW ==========*/  -->
+    <a id="backToTopButton" href="#home" class=""
+      ><img src="./assets/icons/arrow.svg" alt=""
+    /></a>
+
+    <!-- /*========== SCRIPT JS ==========*/  -->
+    <!-- ScrollReveal Library -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
